@@ -1,0 +1,94 @@
+body {
+  background-color: rgb(39, 38, 38);
+  min-width: 540px;
+}
+
+.logo {
+  width: 50px;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  height: auto;
+  width: 540px;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  margin: 0 auto;
+}
+
+#generate-sudoku {
+  margin: auto;
+  display: block;
+}
+
+#solve {
+  margin: 1.5rem auto;
+  display: block;
+}
+
+#container div {
+  background-color: whitesmoke;
+  height: 60px;
+  width: 60px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 60px;
+  font-size: 30px;
+  color: green;
+}
+
+#container div:hover {
+  background-color: lightskyblue;
+}
+
+.lsb {
+  border-left: black 2px solid;
+}
+
+.bsb {
+  border-bottom: black 2px solid;
+}
+
+.rsb {
+  border-right: black 2px solid;
+}
+
+.tsb {
+  border-top: black 2px solid;
+}
+
+.ldb {
+  border-left: black 0.6px dashed;
+}
+
+.bdb {
+  border-bottom: black 0.6px dashed;
+}
+
+.rdb {
+  border-right: black 0.6px dashed;
+}
+
+.tdb {
+  border-top: black 0.6px dashed;
+}
+
+/* @media screen and (max-width: 400px) {
+  #container {
+    height: auto;
+    width: 360px;
+  }
+  #container div {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 20px;
+  }
+} */
